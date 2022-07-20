@@ -31,23 +31,31 @@ const Carousel = () => {
           ></button>
         </div>
         <div class="carousel-inner">
+          <div style={{ position: "absolute", top: 80 + "px", left: 800 + "px", visibility: "visible", zIndex: 1 }} >
+            <img src="public/static/images/LogoEmpresa.png" />
+            <h1 className="display-1">Tienda</h1>
+            <h3 className="lead">Hacemos tu vida mas facil.</h3>
+          </div>
           <div class="carousel-item active">
             <img
-              src="/public/static/images/Carousel1.png"
+              id="imagenBlur"
+              src="/public/static/images/imagenCarrusel1.png"
               class="d-block w-100"
               alt="..."
             />
           </div>
           <div class="carousel-item">
             <img
-              src="/public/static/images/Carousel2.png"
+              src="/public/static/images/imagenCarrusel2.jpg"
+              id="imagenBlur"
               class="d-block w-100"
               alt="..."
             />
           </div>
           <div class="carousel-item">
             <img
-              src="/public/static/images/Carousel3.png"
+              id="imagenBlur"
+              src="/public/static/images/imagenCarrusel3.jpg"
               class="d-block w-100"
               alt="..."
             />
@@ -72,7 +80,7 @@ const Carousel = () => {
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
+    </div >
   );
 };
 

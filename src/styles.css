@@ -1,0 +1,4 @@
+#imagenBlur {
+  filter: blur(10px);
+  height: 800px;
+}
